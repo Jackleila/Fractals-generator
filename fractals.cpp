@@ -76,9 +76,9 @@ std::vector<Vector3<int>> fractal(float left, float top, float xside, float ysid
 	yscale = yside / maxY;
 
 	// Each point represents a Complex number (x + yi). 
-	for (y = 1; y <= maxX - 1; y++)
+	for (y = 1; y <= maxY - 1; y++)
 	{
-		for (x = 1; x <= maxY - 1; x++)
+		for (x = 1; x <= maxX - 1; x++)
 		{
 			// c_real 
 			cx = x * xscale + left;
